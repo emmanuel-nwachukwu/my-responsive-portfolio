@@ -827,6 +827,10 @@ body.dark-theme {
   margin-bottom: 0.75rem;
 }
 
+.projects__description span {
+  font-weight: var(--font-bold);
+}
+
 .projects__buttons {
   display: flex;
   align-items: center;

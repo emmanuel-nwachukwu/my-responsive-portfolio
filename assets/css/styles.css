@@ -178,17 +178,20 @@ body.dark-theme {
 }
 .container__resume {
   text-align: center;
+  /* align-self: start; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.container__resume .home__description {
-  font-size: var(--smaller-font-size);
-  font-weight: var(--font-bold);
-}
+/* .container__resume .home__description {
+  font-size: 0.2rem ;
+} */
 
 .container__resume .home__social-link {
   padding: 0.5rem 0.8rem;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-bold);
+  border-radius: 0.2rem;
 
   display: flex;
   align-items: center;
